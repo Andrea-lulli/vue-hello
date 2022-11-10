@@ -16,12 +16,22 @@
 
 <body>
     <div id="root">
+        <!-- input per inserimento frase nell' h1 dal data -->
+        <input v-model="message" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
         <!-- stampa a schermo frase del data -->
         <h1>{{ message }}</h1>
 
         <!-- inserita img dal data -->
-        <img :src="img" alt="" @click="imgclick">
+        <img :src="img" alt="">
+
+        <div>
+            <button type="button" @click="imgclick" class="btn btn-primary">Primary</button>
+
+        </div>
+
+
+
 
 
 

@@ -10,8 +10,9 @@ un data.
 var app = new Vue(
   {
     el: '#root',
+    
     data: {
-      message: "Frase di prova Vue",
+      message: "",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKYfe4UJkhZ4Z7msV8e6vw65LzC-EwhpqTRCtUQfEPzEVa8MpXHGqPbljxRIn43RkS4bc&usqp=CAU",
       
     },
